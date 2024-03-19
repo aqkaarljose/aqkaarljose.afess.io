@@ -1,0 +1,23 @@
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.c-nav {
+    margin-left: 10px;
+}
+
+.btn-transparent-hover:hover {
+    background-color: #f97105 !important;
+    border-color: #f97105 !important;
+    color: white !important;
+  }
+  .about-section img {
+    width: 100%;
+    height: auto;
+}
