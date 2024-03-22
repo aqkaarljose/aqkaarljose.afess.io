@@ -1,6 +1,8 @@
 
 .c-item {
-    height: 480px;
+    height: 480px; 
+  box-sizing: border-box; 
+  overflow-y: auto;
 }
 
 .c-img {
@@ -36,7 +38,6 @@
     color: rgb(255, 255, 255) !important;
 }
 
-/* Style for image grid */
 .image-grid {
     margin-top: 30px;
 }
@@ -46,11 +47,11 @@
     height: auto;
     margin-bottom: 20px;
 }
-
-/* Offcanvas styling */
 .offcanvas-header {
-    border-bottom: 1px solid #dee2e6;
-}
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem 1.5rem; 
+    background-color: #F97105; 
+  }
 
 .offcanvas-title {
     margin-bottom: 0;
@@ -70,5 +71,5 @@ footer {
     width: 100%;
     background-color: #2756B0;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
 }

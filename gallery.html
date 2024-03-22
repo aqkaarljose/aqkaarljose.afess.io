@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css"/>
-<title>Bootstrap demo</title>
+<title>Gallery</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <style>
-  .card {
-    height: 100%;
-  }
-  .card-img-top {
-            height: 300px; /* Set a fixed height for the images */
-            object-fit: cover; /* Ensure the image covers the entire space */
+        .card {
+          height: 100%;
+        }
+        .card-img-top {
+            height: 300px; 
+            object-fit: cover;
         }
         .gallery-title {
           color: #726f6f;
@@ -24,7 +24,10 @@
             text-align: center;
             margin-top: 30px;
             margin-bottom: 20px;
-  }
+        }
+        .container{
+          margin-bottom: 20px;
+        }
 </style>
 </head>
 <body>
@@ -68,13 +71,13 @@
 <h1 class="gallery-title">GALLERY</h1>
 
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
     <div class="col">
       <div class="card">
         <img src="./img/galleryphotos/gall1.jpg" alt="heli" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Share the knowledge</h5>
-          <p class="card-text">We conducted career symposium and seminars for aspiring aviators to pursue careers in aviation.</p>
+          <p class="card-text">We conduct career symposiums and seminars for aspiring aviators to pursue careers in aviation. This will help them decide what is the best career for them when they grow up.</p>
         </div>
       </div>
     </div>
@@ -82,8 +85,8 @@
       <div class="card">
         <img src="./img/galleryphotos/gall2.JPG" alt="copter" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title"> Lupad mga papibirds</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur blanditiis perferendis consectetur iusto assumenda nulla possimus itaque expedita, et quae voluptatum molestias non corrupti, dolores doloribus dolorum veniam at inventore.</p>
+          <h5 class="card-title">Tools room</h5>
+          <p class="card-text">The tools are all clean and well-maintained, and they are clearly arranged in a way that makes the mechanics easy to find. </p>
         </div>
       </div>
     </div>
@@ -91,8 +94,8 @@
       <div class="card">
         <img src="./img/galleryphotos/gall3.JPG" alt="plane" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title"> Lupad mga papibirds</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur blanditiis perferendis consectetur iusto assumenda nulla possimus itaque expedita, et quae voluptatum molestias non corrupti, dolores doloribus dolorum veniam at inventore.</p>
+          <h5 class="card-title">Flight Simulator</h5>
+          <p class="card-text">Flight simulator setup with three monitors on a desk. The monitors are arranged in a wide arc, which would provide the pilots with a panoramic view of the virtual world. The center monitor is directly in front of the user, and the two side monitors are angled outwards. This setup would allow the user to see the sides of the airplane and the horizon more realistically.</p>
         </div>
       </div>
     </div>
@@ -111,7 +114,7 @@
         <img src="./img/galleryphotos/gall4.jpg" alt="plane" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Maintenance</h5>
-          <p class="card-text">Our maintenance team is second to none in the country, ensuring the safety of the crew on each and every flight.</p>
+          <p class="card-text">Our maintenance team is second to none in the country, ensuring the safety of the crew on each and every flight. Aircrafts also undergo periodic maintenance check upon reaching 50 and 100 hours for this reason it is vital to always measure the flight time of aircrafts. </p>
         </div>
       </div>
     </div>
